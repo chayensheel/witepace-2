@@ -22,3 +22,59 @@ body {
    background-color: #C4DEFD;
    color: #fff;
 }
+
+.theme-button {
+    display: inline-block;
+    background: #4F9CF9;
+    border-radius: 8px ;
+   margin-left: 24px;
+
+}
+.theme-button-two {
+    display: inline-block;
+    background: #FFE492;
+    border-radius: 8px ;
+    padding: 16px 24px !important;
+    color: #043873 !important;
+    margin-left: 24px;
+
+}
+.theme-button img {
+    margin-left: 10px;
+}
+
+/*
+Header css
+*/
+.header-area {
+ background: #043873;
+ padding: 16px 0;
+}
+
+.header-area .nav-link {
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    padding: 16px 24px !important;
+}
+
+@media (max-width: 991px) {
+    .theme-button {
+       margin-left: 0;
+       width: 100%;
+       text-align: center;
+       margin-top: 15px;
+    
+    }
+    .theme-button-two {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+        background: #FFE492;
+        margin-top: 15px;
+    }
+    .header-area .nav-link {
+        
+      padding: 16px 0 !important;
+    }
+}
